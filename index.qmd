@@ -1,5 +1,5 @@
 ---
-title: "."
+title: "index page"
 listing:
   contents: posts
   sort: "date desc"
