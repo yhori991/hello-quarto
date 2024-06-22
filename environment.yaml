@@ -7,11 +7,13 @@ dependencies:
   - pip
   - ipykernel
   # --- reporting ---
+  - marimo
   - jupyterlab
   - jupyter_bokeh
   - nbformat
   - markdownify
   - plotly
+  - python-kaleido
   - panel
   # --- data science ---
   - polars
