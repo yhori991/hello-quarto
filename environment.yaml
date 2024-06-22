@@ -1,0 +1,24 @@
+name: testbench-quarto-gha
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python ==3.11
+  - pip
+  - ipykernel
+  # --- reporting ---
+  - jupyterlab
+  - jupyter_bokeh
+  - nbformat
+  - markdownify
+  - plotly
+  - panel
+  # --- data science ---
+  - polars
+  # --- http ---
+  - requests
+  - tenacity
+  # --- utils ---
+  - boltons
+  - returns
+  - loguru
