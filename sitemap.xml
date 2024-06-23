@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yhori991.github.io/testbench-quarto-github/about.html</loc>
-    <lastmod>2024-06-23T07:41:41.689Z</lastmod>
+    <lastmod>2024-06-23T08:44:58.196Z</lastmod>
   </url>
   <url>
     <loc>https://yhori991.github.io/testbench-quarto-github/posts/post-by-notebook/post-by-notebook.html</loc>
-    <lastmod>2024-06-23T07:41:41.693Z</lastmod>
+    <lastmod>2024-06-23T08:44:58.204Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yhori991.github.io/testbench-quarto-github/posts/post-by-notebook-run-on-gha/post-by-notebook.html</loc>
+    <lastmod>2024-06-23T08:48:21.364Z</lastmod>
   </url>
   <url>
     <loc>https://yhori991.github.io/testbench-quarto-github/posts/post-with-code/index.html</loc>
-    <lastmod>2024-06-23T07:41:41.693Z</lastmod>
+    <lastmod>2024-06-23T08:44:58.204Z</lastmod>
   </url>
   <url>
     <loc>https://yhori991.github.io/testbench-quarto-github/posts/welcome/index.html</loc>
-    <lastmod>2024-06-23T07:41:41.693Z</lastmod>
+    <lastmod>2024-06-23T08:44:58.204Z</lastmod>
   </url>
   <url>
     <loc>https://yhori991.github.io/testbench-quarto-github/index.html</loc>
-    <lastmod>2024-06-23T07:41:41.693Z</lastmod>
+    <lastmod>2024-06-23T08:44:58.196Z</lastmod>
   </url>
 </urlset>
