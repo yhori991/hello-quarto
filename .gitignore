@@ -1,4 +1,8 @@
 /.quarto/
+/.pixi/
 /.mamba/
 /_freeze/
 /_site/
+# pixi environments
+.pixi
+*.egg-info
