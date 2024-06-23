@@ -3,6 +3,7 @@
 /.mamba/
 /_freeze/
 /_site/
+/result/
 # pixi environments
 .pixi
 *.egg-info
