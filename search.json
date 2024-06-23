@@ -18,7 +18,7 @@
     "href": "posts/post-by-notebook-run-on-gha/post-by-notebook.html",
     "title": "Post With Code written in Jupyter Notebook: Executed on GHA",
     "section": "",
-    "text": "This is an article written in a jupyter notebook and published by Qaurto.\n\nimport plotly.express as px\nimport polars as pl\nimport io\nimport PIL.Image\n\ndata = pl.DataFrame(\n    {\n        \"x\": [1, 2, 3],\n        \"y\": [2, 2**2, 2**8],\n    }\n)\nfig = px.scatter(data_frame=data, x=\"x\", y=\"y\")\n\n# --- render as png ---\nbuf = io.BytesIO()\nfig.write_image(buf, engine=\"kaleido\", scale=10)\nimg = PIL.Image.open(buf)\nimg"
+    "text": "This is an article written edited as ipynb with a stale code cell content. The original frozen cell output is a linear graph but the code is an exponential curve.\n\nimport plotly.express as px\nimport polars as pl\nimport io\nimport PIL.Image\n\ndata = pl.DataFrame(\n    {\n        \"x\": [1, 2, 3],\n        \"y\": [2, 2**2, 2**8],\n    }\n)\nfig = px.scatter(data_frame=data, x=\"x\", y=\"y\")\n\n# --- render as png ---\nbuf = io.BytesIO()\nfig.write_image(buf, engine=\"kaleido\", scale=10)\nimg = PIL.Image.open(buf)\nimg"
   },
   {
     "objectID": "posts/post-with-code/index.html",
