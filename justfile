@@ -1,10 +1,10 @@
 default:
     just --list
-render:
-    pixi run quarto render docs --output-dir ../_site
 preview:
-    pixi run quarto preview
+    pixi run quarto preview docs
+render:
+    pixi run quarto render docs
 publish:
-    pixi run quarto publish gh-pages _site --no-prompt --no-browser --no-render
+    pixi run quarto publish gh-pages --no-prompt --no-browser --no-render docs
 clean:
     git clean -fdx # remove untraced files
