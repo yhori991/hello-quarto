@@ -1,31 +1,17 @@
 [
   {
-    "objectID": "posts/post-by-notebook-run-on-gha/post-by-notebook.html",
-    "href": "posts/post-by-notebook-run-on-gha/post-by-notebook.html",
-    "title": "Post With Code written in Jupyter Notebook: Executed on GHA",
-    "section": "",
-    "text": "This article is written and edited as a Jupyter notebook with a stale code cell. The original frozen cell output shows a linear graph, but the current code produces an exponential curve.\n\nimport plotly.express as px\nimport polars as pl\nimport io\nimport PIL.Image\n\ndata = pl.DataFrame(\n    {\n        \"x\": [1, 2, 3],\n        \"y\": [2**1, 2**2, 2**3],\n    }\n)\nfig = px.scatter(data_frame=data, x=\"x\", y=\"y\")\n\n# --- render as png ---\nbuf = io.BytesIO()\nfig.write_image(buf, engine=\"kaleido\", scale=10)\nimg = PIL.Image.open(buf)\nimg"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "index page",
-    "section": "",
-    "text": "Post With Code written in Jupyter Notebook\n\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nJun 23, 2024\n\n\ny.hori\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code written in Jupyter Notebook: Executed on GHA\n\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nJun 23, 2024\n\n\ny.hori\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 22, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 19, 2024\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "posts/post-by-notebook-run-on-gha/post-by-notebook.html",
+    "href": "posts/post-by-notebook-run-on-gha/post-by-notebook.html",
+    "title": "Post With Code written in Jupyter Notebook: Executed on GHA",
+    "section": "",
+    "text": "This article is written and edited as a Jupyter notebook with a stale code cell. The original frozen cell output shows a linear graph, but the current code produces an exponential curve.\n\nimport plotly.express as px\nimport polars as pl\nimport io\nimport PIL.Image\n\ndata = pl.DataFrame(\n    {\n        \"x\": [1, 2, 3],\n        \"y\": [2**1, 2**2, 2**3],\n    }\n)\nfig = px.scatter(data_frame=data, x=\"x\", y=\"y\")\n\n# --- render as png ---\nbuf = io.BytesIO()\nfig.write_image(buf, engine=\"kaleido\", scale=10)\nimg = PIL.Image.open(buf)\nimg"
   },
   {
     "objectID": "posts/post-by-notebook/post-by-notebook.html",
@@ -40,5 +26,19 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "index page",
+    "section": "",
+    "text": "Post With Code written in Jupyter Notebook\n\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nJun 23, 2024\n\n\ny.hori\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code written in Jupyter Notebook: Executed on GHA\n\n\n\nnotebook\n\n\n\n\n\n\n\n\n\nJun 23, 2024\n\n\ny.hori\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 22, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 19, 2024\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   }
 ]
