@@ -1,8 +1,9 @@
 { pkgs ? import <nixpkgs> {} }:
   pkgs.mkShell {
-    nativeBuildInputs = with pkgs; [
+    buildInputs = with pkgs; [
       texliveFull
       pixi
+      just
     ];
     shellHook = ''
     eval "$(pixi shell-hook)"

@@ -3,6 +3,7 @@
 /.mamba/
 /_freeze/
 /_site/
+/build/
 /result/
 # pixi environments
 .pixi
