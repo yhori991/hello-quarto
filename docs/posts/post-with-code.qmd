@@ -3,7 +3,7 @@ title: "Post With Code"
 author: "yhori"
 date: "2024-06-22"
 categories: [news, code, analysis]
-image: "post-with-code-thumbnail.jpg"
+image: "../img/post-with-code-thumbnail.jpg"
 ---
 
 This is a post with executable code.
