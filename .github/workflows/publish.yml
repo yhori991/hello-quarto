@@ -21,13 +21,11 @@ jobs:
       - name: Nix cache
         uses: DeterminateSystems/magic-nix-cache-action@main
 
-      - name: Build development environment
-        run: |
-          nix-build
-
-      - name: Publish to GitHub Pages (and render)
-        uses: yhori991/quarto-actions/publish@nix-pixi
-        with:
-          target: gh-pages
+      - name: Publish to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          nix-shell --run "just render"
+          nix-shell --run "just publish"

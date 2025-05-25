@@ -1,8 +1,8 @@
 default:
     just --list
 render:
-    pixi run quarto render . --output-dir build/docs
+    pixi run quarto render . --output-dir _site
 preview:
     pixi run quarto preview
 publish:
-    pixi run quarto publish gh-pages
+    pixi run quarto publish gh-pages _site --no-prompt --no-browser --no-render
