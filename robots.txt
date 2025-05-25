@@ -1,1 +1,1 @@
-Sitemap: https://yhori991.github.io/testbench-quarto-github/sitemap.xml
+Sitemap: https://yhori991.github.io/hello-quarto/sitemap.xml
