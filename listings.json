@@ -2,10 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-by-notebook/post-by-notebook.html",
-      "/posts/post-by-notebook-run-on-gha/post-by-notebook.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/jupyter-nb.html",
+      "/posts/post-with-code.html",
+      "/posts/welcome.html"
     ]
   }
 ]
