@@ -1,0 +1,27 @@
+---
+title: "Post With Code"
+author: "yhori"
+date: "2024-06-22"
+categories: [news, code, analysis]
+image: "post-with-code-thumbnail.jpg"
+---
+
+This is a post with executable code.
+
+
+```{python}
+# | echo: true
+import plotly.express as px
+import polars as pl
+import io
+import PIL.Image
+
+data = pl.DataFrame(
+    {
+        "x": [1, 2, 3],
+        "y": [2, 4, 6],
+    }
+)
+fig = px.scatter(data_frame=data, x="x", y="y")
+fig.show()
+```

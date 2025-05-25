@@ -6,6 +6,7 @@
       just
     ];
     shellHook = ''
-    eval "$(pixi shell-hook)"
+      watch_file pixi.lock
+      eval "$(pixi shell-hook)"
     '';
   }
