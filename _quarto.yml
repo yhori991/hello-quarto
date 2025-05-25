@@ -3,7 +3,7 @@ project:
   preview:
     port: 8000
 website:
-  title: "testbench-quarto-github"
+  title: "hello-quarto"
   navbar:
     right:
       - about.qmd
